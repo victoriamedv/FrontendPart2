@@ -12,13 +12,13 @@ body {
     font-family: "Lato", sans-serif;
 }
 
-.container{
+.container {
     min-width: 360px;
     max-width: 412px;
     padding: 24px 0;
 }
 
-.message{
+.message {
     font-weight: 700;
     font-style: normal;
     font-size: 32px;
@@ -29,31 +29,31 @@ body {
 .buttons {
     display: flex;
     flex-direction: column;
-    gap: 16px; 
-    margin-bottom: 24px; 
-    padding: 0 16px;    
+    gap: 16px;
+    margin-bottom: 24px;
+    padding: 0 16px;
 }
 
-.button{
+.button {
     text-decoration: none;
-    padding: 15px;    
+    padding: 15px;
     border: 1px solid #0057FF;
     border-radius: 10px;
     font-weight: 400;
     font-size: 18px;
 }
 
-.register-button{
-background-color: #0057FF;
-color: white;
+.register-button {
+    background-color: #0057FF;
+    color: white;
 }
 
-.login-button{
+.login-button {
     background-color: white;
-    color: #0057FF; 
+    color: #0057FF;
 }
 
-.image-campfire{
+.image-campfire {
     width: 100%;
     height: auto;
 
