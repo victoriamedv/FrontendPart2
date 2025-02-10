@@ -66,6 +66,12 @@ describe('Функция проверки расчета размера пост
   it('Должен корректно учитывать пустой текст (без ссылок)', function () {
     const expectedResult = 0; // Пустой текст
     const result = postSize('');
+    assert.equal(expectedResult, result);    
+  });
+
+  it('Должен корректно учитывать пустой текст (без ссылок)', function () {
+    const expectedResult = 0; // Пустой текст
+    const result = postSize('');
     assert.equal(expectedResult, result);
   });
 });
